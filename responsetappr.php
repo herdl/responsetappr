@@ -48,7 +48,6 @@ function responsetappr_shortcode($attributes): string {
     $attributes = shortcode_atts([
         'responsetap_number' => '',
         'number' => '',
-        'link' => ''
     ], $attributes, 'responsetappr');
 
     $responseTapNumber = $attributes['responsetap_number'];
@@ -59,10 +58,6 @@ function responsetappr_shortcode($attributes): string {
 
     if ($responseTapNumber) {
         $response = "<span class=\"rTapNumber$responseTapNumber\">$number</span>";
-    }
-
-    if ($link == 'no') {
-        return $response;
     }
 
     $escapedNumber = preg_replace('/[^0-9+]/', '', $number);
