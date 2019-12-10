@@ -23,6 +23,27 @@ You can download the latest release as a `.zip` then head over to your site to i
 
 Once this plugin has been approved on the Wordpress marketplace we will update the repository with a link. 
 
+## Usage
+
+Get your website ID from the ResponseTap dashboard and input it to our settings page.
+
+The settings page can be found in the admin section of wordpress under `Settings > ResponseTappr`.
+
+Use shortcodes in replacement of phone numbers in your code.
+```
+[responsetappr responsetap_number="12345" number="+44 (1163) 400442"]
+```
+
+This will be replaced with
+
+```
+<a href="tel:+44123456">
+    <span class="rTapNumber12345">
+        +44123456
+    </span>
+</a>
+```
+
 ## We're Using
 * [PHP](https://www.php.net/) - The primary programming language
 
