@@ -13,7 +13,7 @@
     s.parentNode.insertBefore(adiSrc, s);
   })();
 
-  // https://stackoverflow.com/questions/20564770
+  <?php // https://stackoverflow.com/questions/20564770 ?>
   function rTapPostReplacement() {
     var $ = jQuery;
 
