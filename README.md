@@ -8,7 +8,7 @@
 [![We Love Open Source!](https://badges.frapsoft.com/os/v3/open-source.svg?v=103)](https://github.com/herdl)
 
 # ResponseTappr
-Wordpress dynamic keyword insertion plugin.
+A ResponseTap Wordpress integration.
 
 ## Prerequisites
 The following is a list of prerequisites for ResponseTappr.
