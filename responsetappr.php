@@ -65,7 +65,7 @@ function responsetappr_shortcode($attributes): string {
         return $response;
     }
 
-    $escapedNumber = preg_replace('/[^0-9+]/g', '', $number);
+    $escapedNumber = preg_replace('/[^0-9+]/', '', $number);
 
     return "<a href=\"tel:$escapedNumber\">$response</a>";
 }
