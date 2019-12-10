@@ -3,12 +3,12 @@
 <div class="wrap">
     <h2>ResponseTappr Settings</h2>
 
-    <?php if (isset($this->message)): ?>
-        <p><?= $this->message; ?></p>
+    <?php if (isset($message)): ?>
+        <p><?= $message; ?></p>
     <?php endif ?>
 
-    <?php if (isset($this->errorMessage)): ?>
-        <p><?= $this->errorMessage; ?></p>
+    <?php if (isset($errorMessage)): ?>
+        <p><?= $errorMessage; ?></p>
     <?php endif ?>
 
     <form action="options-general.php?page=<?= $pluginName ?>>" method="post">

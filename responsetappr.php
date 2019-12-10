@@ -30,12 +30,12 @@ function responsetappr_settings() {
 
     if (isset($_REQUEST['submit'])) {
         if (!isset($_REQUEST['responsetappr_nonce'])) {
-            $this->errorMessage = 'nonce field is missing. Settings NOT saved.';
+            $errorMessage = 'nonce field is missing. Settings NOT saved.';
         } elseif (!wp_verify_nonce($_REQUEST['responsetappr_nonce'], 'responsetappr')) {
-            $this->errorMessage = 'Invalid nonce specified. Settings NOT saved.';
+            $errorMessage = 'Invalid nonce specified. Settings NOT saved.';
         } else {
             update_option('responsetappr_website_id', $_REQUEST['responsetappr_website_id']);
-            $this->message = 'Settings Saved.';
+            $message = 'Settings Saved.';
         }
     }
 
