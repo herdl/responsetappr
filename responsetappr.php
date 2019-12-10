@@ -52,7 +52,6 @@ function responsetappr_shortcode($attributes): string {
 
     $responseTapNumber = $attributes['responsetap_number'];
     $number = $attributes['number'];
-    $link = $attributes['link'];
 
     $response = $number;
 
