@@ -12,4 +12,15 @@
     var s = document.getElementsByTagName('script')[0];
     s.parentNode.insertBefore(adiSrc, s);
   })();
+
+  // https://stackoverflow.com/questions/20564770
+  function rTapPostReplacement() {
+    $('a[href*="tel:"]').each(function() {
+      var number = $(this).text();
+
+      number = number.replace(/\s+/g, '').toLowerCase();
+
+      $(this).attr('href', 'tel:' + number);
+    });
+  }
 </script>

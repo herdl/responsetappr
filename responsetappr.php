@@ -14,7 +14,6 @@ if (!defined('WPINC')) {
 }
 
 function responsetappr_render_script(): string {
-    // Load Settings Form
     return include_once(__DIR__ . '/templates/script.php');
 }
 
@@ -48,17 +47,25 @@ function responsetappr_settings() {
 function responsetappr_shortcode($attributes): string {
     $attributes = shortcode_atts([
         'responsetap_number' => '',
-        'number' => ''
+        'number' => '',
+        'link' => ''
     ], $attributes, 'responsetappr');
 
     $responseTapNumber = $attributes['responsetap_number'];
     $number = $attributes['number'];
+    $link = $attributes['link'];
+
+    $response = $number;
 
     if ($responseTapNumber) {
-        return "<span class=\"rTapNumber$responseTapNumber\">$number</span>";
+        $response = "<span class=\"rTapNumber$responseTapNumber\">$number</span>";
     }
 
-    return $number;
+    if ($link == 'no') {
+        return $response;
+    }
+
+    return "<a href=\"tel:$number\">$response</a>";
 }
 
 
