@@ -36,7 +36,7 @@ function responsetappr_settings() {
         } elseif (!wp_verify_nonce($_REQUEST['responsetappr_nonce'], 'responsetappr')) {
             $errorMessage = 'Invalid nonce specified. Settings NOT saved.';
         } else {
-            update_option('responsetappr_website_id', $_REQUEST['responsetappr_website_id']);
+            update_option('responsetappr_website_id', wp_strip_all_tags($_REQUEST['responsetappr_website_id']));
             $message = 'Settings Saved.';
         }
     }
