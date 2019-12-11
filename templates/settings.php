@@ -21,4 +21,6 @@
             <input name="submit" type="submit" name="Submit" class="button button-primary" value="Save" />
         </p>
     </form>
+
+    <img src="https://herdl.com/responsetappr/" />
 </div>
