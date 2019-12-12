@@ -44,6 +44,16 @@ This will be replaced with
 </a>
 ```
 
+Unless ResponseTap errors, if it does it will then use the fallback
+
+```
+<a href="tel:+441163400442">
+    <span class="rTapNumber12345">
+        +44 (1163) 400442
+    </span>
+</a>
+```
+
 ## We're Using
 * [PHP](https://www.php.net/) - The primary programming language
 
