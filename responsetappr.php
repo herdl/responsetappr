@@ -61,7 +61,6 @@ function responsetappr_shortcode($attributes): string {
     return "<a href=\"tel:$escapedNumber\">$response</a>";
 }
 
-
 add_action('admin_menu', 'responsetappr_register_settings');
 add_action('wp_footer', 'responsetappr_render_script');
 add_shortcode('responsetappr', 'responsetappr_shortcode');
