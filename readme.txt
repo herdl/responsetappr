@@ -13,44 +13,44 @@ A ResponseTap integration for Wordpress.
 
 == Description ==
 
-A ResponseTap Wordpress integration to aid with call tracking.
+This plugin is a ResponseTap WordPress integration to aid with call tracking.
+
+ResponseTap is a call intelligence platform that provides real-time, actionable data related to inbound phone calls. Insights provided through ResponseTap are integral to analysing the success of marketing channels and lead generation activities.
 
 == Installation ==
 
-You can download the latest release as a `.zip` then head over to your site to install this manually.
-
-Once this plugin has been approved on the WordPress marketplace we will update the repository with a link.
+You can download the latest release as a `.zip` then head over to your site to install this manually or install from the WordPress plugin library.
 
 == Usage ==
 
 Get your website ID from the ResponseTap dashboard and input it to our settings page.
-
-The settings page can be found in the admin section of wordpress under `Settings > ResponseTappr`.
-
+	 
+The settings page for this plugin can be found in the admin section of WordPress under `Settings > ResponseTappr`.
+	 
 Use shortcodes in replacement of phone numbers in your code.
-```
+`
 [responsetappr responsetap_number="12345" number="+44 (1163) 400442"]
-```
+`
 
-This will be replaced with
+The shortcode will be replaced with the following markup when published:
 
-```
+`
 <a href="tel:+44123456">
     <span class="rTapNumber12345">
         +44123456
     </span>
 </a>
-```
+`
 
-Unless ResponseTap errors, if it does it will then use the fallback
+If ResponseTap returns an error, it will the plugin will use the fallback entered. See below:
 
-```
+`
 <a href="tel:+441163400442">
     <span class="rTapNumber12345">
         +44 (1163) 400442
     </span>
 </a>
-```
+`
 
 == Frequently Asked Questions ==
 
