@@ -17,7 +17,6 @@
   function rTapPostReplacement() {
     var $ = jQuery;
 
-    console.log('I am being called! :)');
     $('a[href*="tel:"]').each(function() {
       var number = $(this).text();
 
