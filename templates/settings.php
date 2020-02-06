@@ -1,7 +1,7 @@
-<?php $pluginName = 'responsetappr' ?>
+<?php $pluginName = 'responsetappr_wp' ?>
 
 <div class="wrap">
-    <h2>ResponseTappr Settings</h2>
+    <h2>ResponseTap WP Settings</h2>
 
     <?php if (isset($message)): ?>
         <p><?= $message; ?></p>

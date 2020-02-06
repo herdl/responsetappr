@@ -1,4 +1,4 @@
-=== ResponseTappr ===
+=== ResponseTap WP ===
 Contributors: b3none
 Donate link: https://herdl.com/
 Tags: responsetap, call, call tracking, tracking, herdl
@@ -25,11 +25,11 @@ You can download the latest release as a `.zip` then head over to your site to i
 
 Get your website ID from the ResponseTap dashboard and input it to our settings page.
 	 
-The settings page for this plugin can be found in the admin section of WordPress under `Settings > ResponseTappr`.
+The settings page for this plugin can be found in the admin section of WordPress under `Settings > ResponseTap WP`.
 	 
 Use shortcodes in replacement of phone numbers in your code.
 `
-[responsetappr responsetap_number="12345" number="+44 (1163) 400442"]
+[responsetap_wp responsetap_number="12345" number="+44 (1163) 400442"]
 `
 
 The shortcode will be replaced with the following markup when published:
