@@ -3,7 +3,7 @@
 <div class="wrap">
     <h2>ResponseTap WP Settings</h2>
 
-    <p>This plugin was made and is maintained by Herdl marketing agency. Contact us <a href="https://herdl.com">here</a>.</p>
+    <p>This plugin was made and is maintained by <strong>Herdl</strong> marketing agency. Contact us <a href="https://herdl.com">here</a>.</p>
 
     <?php if (isset($message)): ?>
         <p><?= $message; ?></p>
