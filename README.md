@@ -1,7 +1,6 @@
 ![ResponseTappr](.github/README/logo.png)
 
 [![Contributors](https://img.shields.io/github/contributors/herdl/responsetappr)](https://github.com/herdl/responsetappr)
-[![HitCount](http://hits.dwyl.io/herdl/responsetappr.svg)](https://github.com/herdl/responsetappr)
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/herdl/responsetappr/graphs/commit-activity)
 [![GitHub releases](https://img.shields.io/github/release/herdl/responsetappr.svg)](https://github.com/herdl/responsetappr/releases/)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com)
