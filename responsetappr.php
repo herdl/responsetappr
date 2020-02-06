@@ -5,7 +5,7 @@
  * Plugin URI: https://github.com/herdl/responsetappr
  * Description: A ResponseTap Wordpress integration.
  * Author: Herdl
- * Version: 1.1.2
+ * Version: 1.1.3
  * Author URI: https://herdl.com
  */
 
