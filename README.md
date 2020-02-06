@@ -1,4 +1,4 @@
-![ResponseTappr](.github/README/logo.png)
+![ResponseTap WP](.github/README/logo.png)
 
 [![Contributors](https://img.shields.io/github/contributors/herdl/responsetappr)](https://github.com/herdl/responsetappr)
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/herdl/responsetappr/graphs/commit-activity)
@@ -6,7 +6,7 @@
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com)
 [![We Love Open Source!](https://badges.frapsoft.com/os/v3/open-source.svg?v=103)](https://github.com/herdl)
 
-# ResponseTappr
+# ResponseTap WP
 A ResponseTap integration for Wordpress.
 
 == Description ==
@@ -23,11 +23,11 @@ You can download the latest release as a `.zip` then head over to your site to i
 
 Get your website ID from the ResponseTap dashboard and input it to our settings page.
 	 
-The settings page for this plugin can be found in the admin section of WordPress under `Settings > ResponseTappr`.
+The settings page for this plugin can be found in the admin section of WordPress under `Settings > ResponseTap WP`.
 	 
 Use shortcodes in replacement of phone numbers in your code.
 `
-[responsetappr responsetap_number="12345" number="+44 (1163) 400442"]
+[responsetap_wp responsetap_number="12345" number="+44 (1163) 400442"]
 `
 
 The shortcode will be replaced with the following markup when published:

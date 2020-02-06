@@ -1,5 +1,5 @@
 <script type="text/javascript">
-  var adiInit = "<?= htmlentities(get_option('responsetappr_website_id'))?>",
+  var adiInit = "<?= htmlentities(get_option('responsetap_wp_website_id'))?>",
     adiRVO = true,
     adiFunc = null;
   (function() {
